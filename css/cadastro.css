@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(96, 87, 255);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: rgba(62, 62, 255, 0.63);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(195, 192, 255);/*é utilizado para adicionar efeitos de sombra em volta de um elemento.*/
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);/*para mudar cadastro de clientes*/
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 5px;
+}
+input,select{
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(96, 87, 255);
+    border-radius: 8px;
+    font-size: 16px;
+}
+button{
+    background-color: rgba(78, 131, 255, 0.619);
+    color: rgba(0, 0, 0, 0.699);
+    border: 2%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;/*para aparecer a maozinha quando passar o mouse no botao*/
+    margin-bottom: 10px;
+}
+button a{
+    text-decoration: none;
+}
+button:hover{
+    background-color: rgb(58, 91, 255);
+    color:white;
+}

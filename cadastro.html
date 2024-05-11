@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captura de Leads</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+<body>
+   <div class="container">
+    <h1>Cadasto de Clientes</h1>
+
+    <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="E-mail" name="email">
+
+        <label for="socialMidia">Como nos encontrou</label>
+        <select nome="socialMidia" id="socialMidia">
+            <option value="instagram">Instagram</option>
+            <option value="facebook">Facebook</option>
+            <option value="linkedin">Linkedin</option>
+            <option value="twitter">Twitter</option>
+        </select>
+
+        <button type="subimit">Enviar</button>
+        <button type="subimit"><a href="inicio.html">Inicio</a></button>
+
+
+        <!--a solução abaixo utilizando comando java script-->
+        <button onclick="window.location.href='inicio.html'">ir para inicio</button>
+
+        <!--o botão não vai funcionar por conta do requires no primeiro-->
+        <a href="outra_pagina.html"><button>PG pagina</button></a>
+    </form>
+   </div>
+    
+</body>
+</html>
